@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="https://kit.fontawesome.com/a143de813e.js" crossorigin="anonymous"></script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Doocuments</title>
+        <link rel="stylesheet" href="style.css">
+       
+    </head>
+    <body onload="displayDateTime()">
+        <p>Current Date and Time: <span id="datetime"></span></p>
+    </body>
+    <script>
+        function displayDateTime() {
+            var now = new Date();
+            var dateTime = now.toLocaleString();
+            document.getElementById("datetime").innerHTML = dateTime;
+        }
+    </script>
+    <body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/avatars-5Bog3hmWLu2Z0Vvi-9VGwEA-t500x500.png" class="logo">
+                <ul>
+            
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="#funfacts">Fun Facts</a></li>
+                    <li><a href="#game">Game</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    
+                    
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Computer Science Student</p>
+                <h1>Hi guys, I am <span>Kevin</span><br>Wong from SIBU</h1>
+            </div>
+        </div>
+            </div>
+            <!-----------------------about---------->
+            <div id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="about-col-1">
+                            <img src="images/photo_2023-04-11_02-53-29.png">
+                        </div>
+                        <div class="about-col-2">
+                            <h1 class="sub-title">About Me</h1>
+                            <p>I am currenly taking Computational Sience, I am the eldest child in
+                                 my family of five.I work as a sales assistant at Farley Shoe Centre.
+                                 ps:do visit the store =)</p>
+
+                                <div class="tab-titles">
+                                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                    <p class="tab-links"onclick="opentab('experiences')">Experiences</p>
+                                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                                </div> 
+                                <div class="tab-contents active-tab" id="skills">
+                                    <ul>
+                                        <li><span>Badminton</span><br>currently training</li>
+                                        <li><span>Singing</span><br>sing everyday</li>
+                                        <li><span>Sleeping</span><br>sleep if any chance</li>
+                                    </ul>
+
+                                </div>
+                                <div class="tab-contents" id="experiences">
+                                    <ul>
+                                        <li><span>2001</span><br>I was borned </li>
+                                        <li><span>2005</span><br>started with my kindergarden</li>
+                                        <li><span>2008</span><br>primary school</li>
+                                        <li><span>2014</span><br>secondary school</li>
+                                        <li><span>2018</span><br>start working AND form 6</li>
+                                        <li><span>2021</span><br>UNIMAS</li>
+                                    </ul>
+
+                                </div>
+                                <div class="tab-contents" id="education">
+                                    <ul>
+                                        <li><span>2021</span><br>STPM</li>
+                                        <li><span>2022</span><br>still doing Computational Science</li>
+                                    
+                                    </ul>
+
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         <!-- --------------Hobbies------ -->
+         <div id="hobbies">
+            <div class="container">
+                <h1 class="sub-title">My Hobbies</h1>
+                <div class="hobbies-list">
+                    <div>
+                        <i class="fa-sharp fa-solid fa-volleyball"></i>
+                        <h2>Volleyball</h2>
+                        <p>I really enjoy playing Volleyball, I play Volleyball almost everyday </p>
+                        <a href="#">Learn more</a>
+                        </div>
+               
+                <div>
+                    <i class="fa-solid fa-microphone"></i>
+                    <h2>Singing</h2>
+                    <p>I  enjoy singing a lot, I sing everyday.The songs i currently like to listen are... </p>
+                    <a href="#">Learn more</a>
+                    </div>
+         
+            <div>
+                <i class="fa-solid fa-music"></i>
+                <h2>Playing Piano</h2>
+                <p> I do practice piano sometimes and i won some competition on it</p>
+                <a href="#">Learn more</a>
+              
+        </div>
+
+
+         </div>
+         <!---------------fun facts------------------------>
+         <div id="funfacts">
+            <div class="container">
+                <h1 class="sub-title">Fun Facts </h1>
+                <div class="funfacts-list">
+                    <div class="Fun">
+                        <img src="images/photo_2023-04-29_15-49-14.png">
+                        <div class="layer">
+                            <h3>I love taking photos</h3>
+                            <p>This is the photo i took when i was at waterfront.There is more here!</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="Fun">
+                        <img src="images/89348deb34888adc0fb3ea5bf9efe26c.png">
+                        <div class="layer">
+                            <h3>I work too while i study</h3>
+                            <p>This is the photo i took when i was at annual dinner 2023,There are more of them!</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="Fun">
+                        <img src="images/photo_2023-04-29_15-25-27.png">
+                        <div class="layer">
+                            <h3>This is my pet</h3>
+                            <p>Her name is girl girl. I have more pic of her!</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>   
+                    
+                    <div class="Fun">
+                        <img src="images/photo_2023-04-29_15-32-42.png">
+                        <div class="layer">
+                            <h3>The idol i admire</h3>
+                            <p>His name is Kim Tae Hyung(v).I like the way he dress and how he live his life,more pic of him!</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+         </div>
+         <!--------------------------game---------->
+         <div id="game">
+            <div class="container">
+            <div class="gaming">
+                <div class="gboard">
+                    <div>
+           <h1 class="subtitle"><span1> Count</span1><span>Guess</span> The <span>Number Game</span><span1>Times You Tried</span1> </h1>
+           <p>Guess a number between 1 and 100:</p>
+			<input type="text" id="guessField">
+			<button type="button" onclick="checkGuess()">Submit Guess</button>
+			<p id="message"></p>
+            </div>
+                </div>     
+       </div>
+<div>
+  
+<script>
+				  function toggleVisibility() {
+    var element = document.getElementById("toggle");
+    if (element.style.display === "none") {
+      element.style.display = "block";
+    } else {
+      element.style.display = "none";
+    }
+  }
+
+				// Generate a random number between 1 and 100
+				var secretNumber = Math.floor(Math.random() * 100) + 1;
+		
+				// Initialize the number of guesses to 0
+				var numGuesses = 0;
+		
+				// Get references to the input field and message element
+				var guessField = document.getElementById("guessField");
+				var message = document.getElementById("message");
+		
+				function checkGuess() {
+					// Get the value of the input field
+					var guess = guessField.value;
+		
+					// Convert the guess to a number
+					guess = parseInt(guess);
+		
+					// Increment the number of guesses
+					numGuesses++;
+		
+					// Check if the guess is correct
+					if (guess === secretNumber) {
+						message.innerHTML = "Congratulations! You guessed the number in " + numGuesses + " guesses.";
+					} else if (guess < secretNumber) {
+						message.innerHTML = "Too low. Guess again.";
+					} else {
+						message.innerHTML = "Too high. Guess again.";
+					}
+		
+					// Clear the input field
+					guessField.value = "";
+				}
+			</script>
+         </div>
+         
+         <!----------contact-->
+         </div>
+         <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>showwky@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>010-9785652</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/黄敬诱/"<i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/kevinwky0801/"<i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/Kevin Wong/"<i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.discord.com/Kevinwky#6766"<i class="fa-brands fa-discord"></i></a>
+                    </div>
+                    <a href="images/PBLCase2.pdf"download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg">hello,maybe u can tell me how many times u have tried to get the number~</span>
+                </div>
+                </div>
+         </div>
+          
+
+
+            <script>
+                var tablinks=document.getElementsByClassName("tab-links");
+                var tabcontents=document.getElementsByClassName("tab-contents");
+                
+                function opentab(tabname){
+                    for(tablink of tablinks){
+                        tablink.classList.remove("active-link");
+                    }
+                    for(tabcontent of tabcontents){
+                        tabcontent.classList.remove("active-tab");
+                    }
+                    event.currentTarget.classList.add("active-link");
+                    document.getElementById(tabname).classList.add("active-tab");
+                }
+ </script>
+ <script>
+    const scriptURL ='https://script.google.com/macros/s/AKfycby76lds8gRy-unCoYRrYRNRMSQP3djOFQTarFLpvGiVuQFnz1NeWeQN1TNJn2gcEj3A/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg =document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        msg.innerHTML="Messafe sent successfully.I will read it when i sleep~"
+        setTimeout(function(){
+            msg.innerHTML=""
+        },5000)
+        form.reset()
+    })
+        .catch(error => console.error('Error!', error.message))
+    
+
+  </script>
+  <div class="copyright">
+
+    <p>Copyright &copy Kevin.Made with liver<i class="fa-sharp fa-solid fa-heart"></i> </p></div>
+</div>
+         </div>
+    </body>
+
+</html>
